@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.principal{
+    margin: 7% 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.seccion{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.subseccion-izq{
+    display:flex;
+    flex-direction: column;
+    background-color: white;    
+}
+ 
+.subseccion-der{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 2%;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+}
+.foto{
+    height: 300px;
+    width: 300px;
+}
+
+.nombre{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.iconos{
+ text-align: center;
+}
+.iconos a{
+    margin-right: 3px;
+}
+
+.subseccion-der p{
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.redes-sociales{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+.redes-sociales a{
+    margin-right: 7px;
+}
+
+.img-hobby{
+    height: 200px;
+    width: 200px;
+    border-radius:100px;
+}
+
+.hobby p{
+    text-align: center;
+}
+.hobby{
+    margin-left: 4%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.espacio{
+    margin-top: 1%;
+}
+.acerca-cripto p{
+    text-align: justify;
+}
