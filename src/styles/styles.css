@@ -68,8 +68,9 @@
 
 .hobby p{
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .hobby{
     margin-left: 4%;
-    font-family: 'Source Sans Pro', sans-serif;
+    
 }
