@@ -42,19 +42,19 @@ function App() {
         <div className="espacio"></div>
         <div className="seccion">
           <div className="hobby">
-            <img src={libro} className="img-hobby"></img>
+            <img src={libro} className="img-hobby" alt="libro"></img>
             <p>Leer libros</p>            
           </div>
           <div className="hobby">
-            <img src={estudio} className="img-hobby"></img>
+            <img src={estudio} className="img-hobby" alt="estudio"></img>
             <p>Estudiar</p>            
           </div>
           <div className="hobby">
-            <img src={kdrama} className="img-hobby"></img>
+            <img src={kdrama} className="img-hobby" alt="drama"></img>
             <p>Ver K-Dramas</p>            
           </div>
           <div className="hobby">
-            <img src={viaje} className="img-hobby"></img>
+            <img src={viaje} className="img-hobby" alt="viaje"></img>
             <p>Viajar</p>            
           </div>
         </div>
