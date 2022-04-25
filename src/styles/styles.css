@@ -72,5 +72,8 @@
 }
 .hobby{
     margin-left: 4%;
-    
+}
+.acerca-cripto p{
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
 }
