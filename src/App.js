@@ -12,7 +12,7 @@ import estudio from "./images/estudio.jpg";
 import kdrama from "./images/kdrama.jpg";
 import viaje from "./images/viaje.jpg";
 import cv from "../src/files/cv-esme.pdf";
-
+import key from "../src/files/esme-privateK.pem";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <div className="subseccion-izq">
             <div> <img src={foto} alt="Esme" className="foto"></img></div>
             <div> <h2 className="nombre">Esmeralda Godinez Montero</h2></div>
-            <div className="iconos"> <img src={imgLlave} alt="llave"></img> <a href={cv} download="CV-EsmeGodinez"> <img src={imgCV} alt="cv"></img></a></div>
+            <div className="iconos"> <a href={key} download="esme-privateKey"><img src={imgLlave} alt="llave"></img></a> <a href={cv} download="CV-EsmeGodinez"> <img src={imgCV} alt="cv"></img></a></div>
           </div>
           <div className="subseccion-der">
             <p>¡Hola! mi nombre es Esmeralda y este es el incio de mi página personal.<br></br>
